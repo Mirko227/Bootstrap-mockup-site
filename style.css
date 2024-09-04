@@ -1,0 +1,118 @@
+   
+    .navbar-bg{
+        background-color: #A5D6A7;
+        font-size: clamp(1.2rem,4vw,1.8rem);
+    }
+    
+    .link-color{
+        color: #2E7D32;
+        text-decoration:none;
+    }
+    
+    .link-color:hover{
+        color: white;
+    }
+    
+    .nav-button{
+        padding:.8rem;
+        width: 6rem;
+        height: 3rem;
+        border-radius: 1.5rem;
+        }
+    
+    .btn{
+    background-color: #2E7D32;
+    }
+    
+    .nav-link:hover{
+        color:black;
+    }
+
+    
+    .nav-text
+    {
+        font-size: clamp(3rem,7vw,8rem)
+    }
+
+    .main-section{
+        background-color:rgb(240, 251, 240);
+        padding-block:5rem;
+    }
+
+    .carousel-item{
+       position: relative;
+    }  
+    .carousel-caption{
+        top: 50%;
+        transform: translateY(-50%);
+        bottom: initial;
+    }
+    .carousel-text{
+        font-size: clamp(1.5rem,6vw,15rem);
+    }
+
+    .main-text{
+        font-size: clamp(1.2rem,2vw,1.5rem);
+        font-weight: 300;
+    }
+
+    .recensioni-viaggi{
+        padding-bottom: 4rem;
+        padding-top: 3rem;   
+    }
+
+    
+
+    .blockquote-custom {
+        position: relative;
+        font-size: 1.1rem;
+        }
+        
+        .blockquote-custom-icon {
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: absolute;
+        top: -40px;
+        left: 19px;
+        }
+
+        .sezione-info{
+            padding-top: 4rem;
+        }
+        
+        .dot {
+            height: 2.1rem;
+            min-width: 2.1rem;
+            background-color: #A5D6A7;
+            border-radius: 50%;
+          }
+
+          .btn-book{
+            border-radius: 3rem;
+            min-width: 10rem;
+            font-size: 1.2rem;
+          }
+
+          
+          .list-inline-item a
+          {
+            color:black;
+            text-decoration: none;
+          }
+
+
+    @media screen and (min-width:768px)
+    { 
+    
+    .carousel-item{
+        max-height: 35rem;
+    }    
+    .searchbar{
+        min-width: 25rem;
+    }
+    
+    }
